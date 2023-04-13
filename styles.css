@@ -1,0 +1,1070 @@
+
+
+header {
+    background: #ffffff;
+}
+
+header .inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    height: 4cm;
+    align-items: center;
+}
+
+header .container { 
+    width: 1000px;
+    align-items: left; }
+
+
+
+header .logo {
+
+    width: 200px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 110px;
+}
+
+
+
+header nav ul li {
+    display: inline;
+    margin-left: 3em;
+    padding-right: 30px;
+}
+
+header nav ul li a {
+    display: inline;
+    margin-left: 1em;
+    padding-right: 20px;
+    font-family: "futura";
+    color: black;
+    text-decoration: none;
+    }
+
+    
+head nav ul li a:hover {
+    color: aquamarine;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+/* HOME PAGE */
+
+.hero {
+  background-image: url("https://live-production.wcms.abc-cdn.net.au/6bfb3e323ea09b81265632d6688631b1?impolicy=wcms_crop_resize&cropH=1987&cropW=2978&xPos=11&yPos=0&width=862&height=575");
+  background-repeat: no-repeat;
+  height: 40em;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  width: 100%; 
+  background-size: cover;
+  background-position: center;
+
+}
+
+main.row {
+  margin: 100px;
+  padding: 100px;
+  justify-content: center;
+}
+
+
+
+main .p1 {
+
+    font-family: "Futura";
+    font-style: bold;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 4em;
+}
+
+main .p2 {
+    font-family: "Futura";
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.8em;
+    padding-right: 20px;
+    text-align: right;
+
+}
+main .column1 {
+  float: left;
+  max-width: 50%;
+
+}
+
+main .column2 {
+    float: right;
+    max-width: 50%;
+
+
+}
+
+
+
+main .image2 {
+
+width: 80%;
+padding-left: 20px;
+
+}
+
+/* REDUCE TEXT SIZING FOR TABLET */
+
+@media screen and (max-width: 1000px) {
+  main .p1 {
+
+    text-align: center;
+    align-content: center;
+    font-size: 3em;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  main .p2 {
+    font-size: 12px;
+    text-align: center;
+    padding: 0%;
+
+}
+}
+
+/* STACKING TEXT AND IMAGE */
+
+
+@media screen and (max-width: 700px) {
+  div.row {
+    flex: 50%;
+    max-width: 50%;
+    margin: 60px;
+    padding: 0px;
+    align-content: center;
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.row {
+    flex: 50%;
+    max-width: 50%;
+    margin: 100px;
+    padding: 60px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  main .column2 {
+    flex: 100%;
+    max-width: 100%;
+   padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main .image2 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0%;
+  }
+}
+
+
+.events .innerContainer {
+  width:90%;
+  margin: 0 auto;
+}
+
+
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-family: "futura";
+    font-size: 15px;
+    transition-duration: 0.4s;
+    background-color: slategray; 
+    color: white;
+    padding: 20px;
+    border: none;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 700px) {
+    .button {
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 10px;
+      font-family: "futura";
+      font-size: 10px;
+      transition-duration: 0.4s;
+      background-color: slategray; 
+      color: white;
+      padding: 10px;
+      border: none;
+      margin-top: 30px;
+  }
+}
+    
+.button:hover {
+    background-color: white; 
+    color: black;
+    border: solid;
+  }
+
+
+
+.UE {
+    font-family: "Futura";
+    text-align: center;
+    font-size: 4em;
+    background-color: #FBB883;
+    padding-top: 60px;
+
+}
+
+@media screen and (max-width: 1000px) {
+ 
+    .UE {
+      font-family: "Futura";
+      text-align: center;
+      font-size: 3em;
+      background-color: #FBB883;
+      padding-top: 30px;
+  
+  }
+}
+
+
+.container4 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #FBB883;
+
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .container4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FBB883;
+  
+  }
+}
+
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+
+@media screen and (max-width: 1000px) {
+.image-grid {
+	--gap: 16px;
+	--num-cols: 4;
+	--row-height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+	display: grid;
+	grid-template-columns: repeat(var(--num-cols), 0.5fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+}
+  }
+
+  @media screen and (max-width: 700px) {
+    .image-grid {
+      --gap: 10px;
+      --num-cols: 4;
+      --row-height: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+      display: grid;
+      grid-template-columns: repeat(var(--num-cols), 0.5fr);
+      grid-auto-rows: var(--row-height);
+      gap: var(--gap);
+    }
+      }
+    
+
+.image-grid>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.image-grid-col-2 {
+	grid-column: span 2;
+}
+
+.image-grid-row-2 {
+	grid-row: span 2;
+}
+
+
+ .image-grid .image-grid-row-2 {
+
+        opacity: 100%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+
+    .image-grid-row-2:hover {
+        opacity: 0.3;
+      }
+      
+
+      .image-grid .image4 {
+
+        opacity: 100%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+
+    .image4:hover {
+        opacity: 0.3;
+      }
+ 
+
+
+      .image-grid .image5 {
+
+        opacity: 100%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+
+    .image5:hover {
+        opacity: 0.3;
+      }
+
+      .image-grid .image6 {
+
+        opacity: 100%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+
+    .image6:hover {
+        opacity: 0.3;
+      }
+
+      .image-grid .image7 {
+
+        opacity: 100%;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+
+    .image7:hover {
+        opacity: 0.3;
+      }
+ 
+          
+
+
+
+  
+.motto {
+  
+    font-size: 3em; 
+    font-family: "futura";
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    margin-left: 23%;
+    padding-top: 5%;
+    
+    }
+
+    @media screen and (max-width: 700px) {
+      .motto {
+        font-size: 2em; 
+        font-family: "futura";
+        position: absolute;
+        top: 50px;
+        margin-right: 20%;
+        text-align: center;
+        padding-top: 5%;
+        
+        }
+      }
+        
+      @media screen and (max-width: 1000px) {
+        .motto {
+          font-size: 2em; 
+          font-family: "futura";
+          position: absolute;
+          top: 80px;
+          text-align: center;
+          margin-left: 20%;
+          padding-top: 5%;
+          
+          }
+        }
+
+    
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 120px;
+
+}
+.container5 {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+
+.parallax {
+
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; height: 337px; object-fit: cover;
+    background-image: url("https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/Canberra%20Modernist%20Dinner%202019%20WEB-0006.jpg/:/rs=w:1160,h:773");
+
+  }
+
+
+  
+  @media screen and (max-device-width: 480px) { 
+    .column { 
+        float: none; 
+    } 
+}
+
+
+.gallery {
+
+    font-family: "futura";
+    color: black;
+    font-size: 4em;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .gallery {
+
+    font-family: "futura";
+    color: black;
+    font-size: 2em;
+}
+}
+
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 60px;
+
+    
+}
+
+.row2 img {
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    width: 25%; 
+
+}
+
+
+/* ABOUT PAGE */
+
+ .hero2 {
+    background-image: url(https://static.wixstatic.com/media/7c4bb8_69c3d5cf9a74436c8652ccb4fc3866d0~mv2.jpg/v1/fill/w_1024,h_689,al_c,q_85,enc_auto/7c4bb8_69c3d5cf9a74436c8652ccb4fc3866d0~mv2.jpg);
+    height: 40em;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+.title2 {
+
+    font-family: "futura";
+    font-size: 4em;
+    text-align: center;
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .title2 {
+
+    font-family: "futura";
+    font-size: 2em;
+    text-align: center;
+    margin-top: 60px;
+}
+}
+
+.container2 {
+    display: grid;    
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+   }
+
+  
+   
+   .container3{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: var(--gap) 20px;
+    margin: 60px 60 60 0;
+  
+}
+
+.box3{
+    display:flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:20rem;
+    min-width:18rem;
+    margin: 10px;
+    text-align: center;
+    font-family: "futura";
+    line-height: 1.8em;
+    background-color: #FBB883;
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .box3{
+    display:flex;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:20rem;
+    min-width:18rem;
+    margin: 10px;
+    padding: 20px;
+    font-size: 12px;
+
+}
+}
+
+
+.image12 {
+  background: 50% 50% no-repeat; /* 50% 50% centers image in div */
+  width: 250px;
+  height: 250px;
+}
+
+
+.column3 {
+    justify-content: center; 
+    }
+
+.image8 {
+  width: 85%;
+  height: 26em;
+  justify-content: right;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+  .image8 {
+    width: 70%;
+    height: 20em;
+    justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .image8 {
+      width: 80%;
+      height: 20em;
+      justify-content: center;
+      }
+    }
+  
+
+
+.column4 {
+    flex: 50%;
+    font-family: "Futura";
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.8em;
+    padding-right: 20px;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .container2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:20rem;
+    min-width:18rem;
+    margin: 10px;
+    margin-left: 200px;
+
+}
+}
+
+@media screen and (max-width: 700px) {
+  .container2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+}
+
+
+@media screen and (max-width: 700px) {
+  .column3 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.8em;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .column4 {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1.8em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+.text2 { 
+  font-family: "Futura";
+  font-style: bold;
+  text-align: left;
+  padding-right: 20px;
+  font-size: 2em;
+  float: left;
+}
+
+
+@media screen and (max-width: 1000px) {
+ 
+  .text2 { 
+    font-family: "Futura";
+    font-style: bold;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 1.7em;
+    float: left;
+  }
+  
+}
+
+
+
+
+.text2, h1 {
+  padding-bottom: 20px;
+}
+
+
+
+/* EVENTS PAGE */
+
+   .hero3 {
+    background-image: url("https://lostfourwordsdotcom.files.wordpress.com/2017/04/thumbnail_bradley_madigan_nga_1.jpg");
+    background-repeat: no-repeat;
+    height: 40em;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+
+.about {
+
+  font-family: "Futura";
+  font-style: bold;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 120px;
+
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .about {
+
+    font-family: "Futura";
+    font-style: bold;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 60px;
+  
+  }
+}
+
+  .row3 {
+
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin-top: 16px;
+    margin-top: 60px;
+
+  }
+
+
+  @media screen and (max-width: 1000px) {
+ 
+    .row3 {
+
+      display: grid;  
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 16px;
+      margin-top: 16px;
+      margin-top: 60px;
+  
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+ 
+    .row3 {
+
+      display: grid;  
+      grid-template-columns:1fr;
+      grid-gap: 16px;
+      margin-top: 16px;
+      margin-top: 60px;
+  
+    }
+  }
+
+
+
+  .row3 div img {
+    max-width: 100%;
+    min-height: 300px;
+  }
+
+
+.image10 {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+  /* width: 50%; */
+}
+
+
+.text5 {
+
+  font-family: "futura";
+  font-size: 1em;
+  text-align: center;
+  margin: 16px;
+  /* margin-top: 4em; */
+
+}
+ 
+
+.year, .events h3 {
+
+  font-family: "futura";
+  font-size: 3em;
+  text-align: center;
+  margin: 2em 0 2em;
+
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  .year, .events h3 {
+
+    font-family: "futura";
+    font-size: 2.5em;
+    text-align: center;
+    margin: 2em 0 2em;
+  
+  }
+}
+
+
+
+.image11{
+  position: absolute;
+  background-size: cover;
+  width: 100%; height: 500px; object-fit: cover;
+  margin-top: 120px;
+}
+  
+
+
+.container6{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-block {
+  position: relative;
+  align-content: center;
+  text-align: center;
+  padding: 60px;
+  margin: 120px;
+  margin-top: 15em;
+  height: 300px;
+  width: 40%;
+  font-family: "futura";
+  background-color: #FBB883;
+  opacity: 70%;
+}
+
+
+@media screen and (max-width: 1000px) {
+ 
+  div.text-block {
+    position: relative;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 120px 120px;
+    margin-top: 15em;
+    height: 250px;
+    width: 40%;
+    font-family: "futura";
+    background-color: #FBB883;
+    opacity: 70%;
+  }
+  
+}
+
+
+.text6 {
+  font-size: 3em; 
+  font-style: bold;
+  text-align: center;
+  color: white;
+  opacity: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .text6 {
+    font-size: 2em; 
+    font-style: bold;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+  }
+
+}
+
+.contact {
+  font-size: 2em;
+  font-style: bold;
+  text-align: center;
+  color: white;
+  opacity: 100%;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .contact {
+    font-size: 1.5em;
+    font-style: bold;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+    margin-top: 0.5em;
+  }
+  
+}
+
+.sub {
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  opacity: 100%;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .sub {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+    margin-top: 1.5em;
+
+  }
+  
+}
+.container3, .button {
+  margin-top: 30px;
+}
+
+
+/* GALLERY PAGE */
+
+.hero4 {
+  background-image: url("https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/0912dd47-b9d2-499e-9558-1c414f9905e2.jpg/:/rs=w:1160,h:774");
+  background-repeat: no-repeat;
+  height: 40em;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+  background-size: cover;
+  background-position: center;
+
+}
+.title4 {
+
+  font-family: "Futura";
+  text-align: center;
+  font-size: 3em;
+  margin: 60px
+}
+
+.title5 {
+
+  font-family: "Futura";
+  text-align: center;
+  font-size: 2em;
+  margin: 60px
+}
+
+.row6 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+ 
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    margin: 60px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+footer {
+    width: 100%;
+    background-color: #708090;
+    font-family: "futura";
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 2em;
+    object-fit: cover;
+ 
+}
+
+@media screen and (max-width: 700px) {
+  footer {
+    width: 100%;
+    background-color: #708090;
+    font-family: "futura";
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2em;
+    object-fit: cover;
+    font-size: 10px;
+ 
+}
+    }
+  

@@ -18,7 +18,8 @@ I have learnt many new techniques and concepts regarding web design from the dev
 Low-fi prototypes
 
 
-![Lofi-1] (/project/Low-Fi-03.png)
+![Lofi-1] (/Users/brittanymatthews333/Documents/Sem 1 2023/Front-End Web/PROJECT/Low-Fi-03.png)
+
 ![Lofi-2] (Low-Fi-04.png)
 ![Lofi-3] (Low-Fi-05.png)
 ![Lofi-4] (Low-Fi-06.png)

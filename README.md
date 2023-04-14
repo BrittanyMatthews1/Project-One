@@ -18,13 +18,13 @@ I have learnt many new techniques and concepts regarding web design from the dev
 Low-fi prototypes
 
 
-![Low-fi-1] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-03.png)
+![Low-fi-1] (https://drive.google.com/file/d/1cYuB7uBKXHnZNR_9_xCYHKUJk9cgOM_T/view?usp=share_link)
 
-![Low-fi-2] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-04.png)
+![Low-fi-2] (https://drive.google.com/file/d/1rld2JwT3ntoCrWMZe9YDy3WSEq7w9jyH/view?usp=share_link)
 
-![Low-fi-3] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-05.png)
+![Low-fi-3] (https://drive.google.com/file/d/1rld2JwT3ntoCrWMZe9YDy3WSEq7w9jyH/view?usp=share_link)
 
-![Low-fi-4] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-06.png)
+![Low-fi-4] (https://drive.google.com/file/d/1rld2JwT3ntoCrWMZe9YDy3WSEq7w9jyH/view?usp=share_link)
 
 
 Low-Fi sketches were developed prior to the development of the website and began the ideation process. Most layout ideas were utilised in the final site, with consistency with rows, columns, and utilisation of hero images. However, when approaching the project, the hamburger menu was not implemented as I was unsure how to execute the idea, and inner pages were also not implemented as displayed on the event page low-fi sketch. However, the consistency of grids and even column and row designs throughout the event and gallery pages were successfully implemented.
@@ -33,7 +33,7 @@ High-fi
 
 ![High-fi-1] (https://drive.google.com/file/d/1cYuB7uBKXHnZNR_9_xCYHKUJk9cgOM_T/view?usp=share_link)
 
-![High-fi-2] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-02.png)
+![High-fi-2] (https://drive.google.com/file/d/1cYuB7uBKXHnZNR_9_xCYHKUJk9cgOM_T/view?usp=share_link)
 
 Home page ideation utilising Figma, with most of the layout implemented into the final design, including the nav bar, hero image, buttons and parallax scroll effect. The development of the high-fi sketches influenced by the low-fi sketches provided insight of a successful layout for the home page design.
 

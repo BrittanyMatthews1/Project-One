@@ -37,7 +37,11 @@ High-fi
 
 Home page ideation utilising Figma, with most of the layout implemented into the final design, including the nav bar, hero image, buttons and parallax scroll effect. The development of the high-fi sketches influenced by the low-fi sketches provided insight of a successful layout for the home page design.
 
-Resources
+Content esources
+
+Canberra Modern (n.d.). Canberra Modern https://canberramodern.com/
+
+Image Resources
 
 Canberra Modern (n.d.). Canberra Modern https://canberramodern.com/
 

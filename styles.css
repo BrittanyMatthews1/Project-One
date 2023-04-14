@@ -105,10 +105,7 @@ main .column1 {
 main .column2 {
     float: right;
     max-width: 50%;
-
-
 }
-
 
 
 main .image2 {
@@ -146,8 +143,7 @@ padding-left: 20px;
     flex: 50%;
     flex-direction: column;
     max-width: 50%;
-    margin: 60px;
-    padding: 0px;
+    margin: 30px;
     align-content: center;
 
   }
@@ -221,6 +217,7 @@ padding-left: 20px;
 @media screen and (max-width: 700px) {
     .button {
       text-align: center;
+      justify-content: center;
       text-decoration: none;
       display: inline-block;
       border-radius: 10px;
@@ -243,6 +240,8 @@ padding-left: 20px;
 
 
 
+
+
 .UE {
     font-family: "Futura";
     text-align: center;
@@ -259,6 +258,7 @@ padding-left: 20px;
     .UE {
       font-family: "Futura";
       text-align: center;
+      justify-content: center;
       font-size: 3em;
       background-color: #FBB883;
       padding-top: 30px;
@@ -631,6 +631,7 @@ padding-left: 20px;
     width: 70%;
     height: 20em;
     justify-content: center;
+    padding: 0%;
     }
   }
 
@@ -639,6 +640,7 @@ padding-left: 20px;
       width: 80%;
       height: 20em;
       justify-content: center;
+      padding: 0%;
       }
     }
   
@@ -700,6 +702,7 @@ padding-left: 20px;
     font-size: 12px;
     font-style: normal;
     line-height: 1.8em;
+    padding: 0%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -1044,7 +1047,7 @@ padding-left: 20px;
   .column {
     flex: 50%;
     max-width: 50%;
-    margin: 60px;
+    margin: 0px 60px 60px;
   }
 }
 

@@ -39,8 +39,6 @@ Home page ideation utilising Figma, with most of the layout implemented into the
 
 Resources
 
-provide a briefly annotated list of resources that you found helpful while creating the website. 
-
 Canberra Modern (n.d.). Canberra Modern https://canberramodern.com/
 
 

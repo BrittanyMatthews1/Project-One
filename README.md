@@ -20,16 +20,20 @@ Low-fi prototypes
 
 ![Low-fi-1] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-03.png)
 
-![Lofi-2] (Low-Fi-04.png)
-![Lofi-3] (Low-Fi-05.png)
-![Lofi-4] (Low-Fi-06.png)
+![Low-fi-2] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-04.png)
+
+![Low-fi-3] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-05.png)
+
+![Low-fi-4] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-06.png)
+
 
 Low-Fi sketches were developed prior to the development of the website and began the ideation process. Most layout ideas were utilised in the final site, with consistency with rows, columns, and utilisation of hero images. However, when approaching the project, the hamburger menu was not implemented as I was unsure how to execute the idea, and inner pages were also not implemented as displayed on the event page low-fi sketch. However, the consistency of grids and even column and row designs throughout the event and gallery pages were successfully implemented.
 
 High-fi
 
-![HiFi-1] (Low-Fi-01.png)
-![HiFi-2] (Low-Fi-02.png)
+![High-fi-1] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-01.png)
+
+![High-fi-2] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-02.png)
 
 Home page ideation utilising Figma, with most of the layout implemented into the final design, including the nav bar, hero image, buttons and parallax scroll effect. The development of the high-fi sketches influenced by the low-fi sketches provided insight of a successful layout for the home page design.
 

@@ -31,7 +31,7 @@ Low-Fi sketches were developed prior to the development of the website and began
 
 High-fi
 
-![High-fi-1] (Front-EndWeb/PROJECT/Low-Fi-01.png)
+![High-fi-1] (https://drive.google.com/file/d/1cYuB7uBKXHnZNR_9_xCYHKUJk9cgOM_T/view?usp=share_link)
 
 ![High-fi-2] (/Users/brittanymatthews333/Documents/Sem12023/Front-EndWeb/PROJECT/Low-Fi-02.png)
 

@@ -5,6 +5,7 @@ header {
 }
 
 header .inner {
+
     display: flex;
     justify-content: space-between;
     gap: 1cm;
@@ -13,10 +14,10 @@ header .inner {
 }
 
 header .container { 
+
     width: 1000px;
-    align-items: left; }
-
-
+    align-items: left; 
+  }
 
 header .logo {
 
@@ -26,35 +27,35 @@ header .logo {
     padding-top: 110px;
 }
 
-
-
 header nav ul li {
+
     display: inline;
     margin-left: 3em;
     padding-right: 30px;
 }
 
 header nav ul li a {
+
     display: inline;
     margin-left: 1em;
     padding-right: 20px;
     font-family: "futura";
     color: black;
     text-decoration: none;
-    }
-
+}
     
 head nav ul li a:hover {
+
     color: aquamarine;
     background-color: white;
     transition: 0.3s;
 }
 
 
-
 /* HOME PAGE */
 
 .hero {
+
   background-image: url("https://live-production.wcms.abc-cdn.net.au/6bfb3e323ea09b81265632d6688631b1?impolicy=wcms_crop_resize&cropH=1987&cropW=2978&xPos=11&yPos=0&width=862&height=575");
   background-repeat: no-repeat;
   height: 40em;
@@ -66,17 +67,15 @@ head nav ul li a:hover {
   width: 100%; 
   background-size: cover;
   background-position: center;
-
 }
 
 main .row {
+
   margin: 100px;
   padding: 100px;
   justify-content: center;
   align-content: center;
 }
-
-
 
 main .p1 {
 
@@ -88,31 +87,31 @@ main .p1 {
 }
 
 main .p2 {
+
     font-family: "Futura";
     font-size: 15px;
     font-style: normal;
     line-height: 1.8em;
     padding-right: 20px;
     text-align: right;
-
 }
+
 main .column1 {
+
   float: left;
   max-width: 50%;
-
 }
 
 main .column2 {
+
     float: right;
     max-width: 50%;
 }
-
 
 main .image2 {
 
 width: 80%;
 padding-left: 20px;
-
 }
 
 /* REDUCE TEXT SIZING FOR TABLET */
@@ -128,6 +127,7 @@ padding-left: 20px;
 
 @media screen and (max-width: 1000px) {
   main .p2 {
+
     font-size: 12px;
     text-align: center;
     padding: 0%;
@@ -140,17 +140,20 @@ padding-left: 20px;
 
 @media screen and (max-width: 700px) {
   div.row {
+
     flex: 50%;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 100%;
     margin: 30px;
     align-content: center;
+    justify-content: center;
 
   }
 }
 
 @media screen and (max-width: 1000px) {
   div.column1 {
+
     flex: 50%;
     flex-direction: column;
     max-width: 50%;
@@ -163,6 +166,7 @@ padding-left: 20px;
 
 @media screen and (max-width: 900px) {
   div.row {
+
     flex: 50%;
     max-width: 50%;
     margin: 50px;
@@ -171,9 +175,9 @@ padding-left: 20px;
   }
 }
 
-
 @media screen and (max-width: 1000px) {
   main .column2 {
+
     flex: 100%;
     max-width: 100%;
    padding-top: 30px;
@@ -182,21 +186,21 @@ padding-left: 20px;
 
 @media screen and (max-width: 1000px) {
   main .image2 {
+
     flex: 100%;
     max-width: 100%;
     padding: 0%;
   }
 }
 
-
 .events .innerContainer {
+
   width:90%;
   margin: 0 auto;
 }
 
-
-
 .button {
+
     text-align: center;
     justify-content: center;
     text-decoration: none;
@@ -216,6 +220,7 @@ padding-left: 20px;
 
 @media screen and (max-width: 700px) {
     .button {
+
       text-align: center;
       justify-content: center;
       text-decoration: none;
@@ -233,16 +238,14 @@ padding-left: 20px;
 }
     
 .button:hover {
+
     background-color: white; 
     color: black;
     border: solid;
   }
 
-
-
-
-
 .UE {
+
     font-family: "Futura";
     text-align: center;
     font-size: 4em;
@@ -256,6 +259,7 @@ padding-left: 20px;
 @media screen and (max-width: 1000px) {
  
     .UE {
+
       font-family: "Futura";
       text-align: center;
       justify-content: center;
@@ -266,18 +270,17 @@ padding-left: 20px;
   }
 }
 
-
 .container4 {
+
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #FBB883;
-
 }
-
 
 @media screen and (max-width: 700px) {
  
   .container4 {
+
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #FBB883;
@@ -286,6 +289,7 @@ padding-left: 20px;
 }
 
 .image-grid {
+
 	--gap: 16px;
 	--num-cols: 4;
 	--row-height: 200px;
@@ -302,6 +306,7 @@ padding-left: 20px;
 
   @media screen and (max-width: 700px) {
     .image-grid {
+
       --gap: 10px;
       --num-cols: 4;
       --row-height: 80px;
@@ -317,17 +322,19 @@ padding-left: 20px;
     
 
 .image-grid>img {
+
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-
 .image-grid-col-2 {
+
 	grid-column: span 2;
 }
 
 .image-grid-row-2 {
+
 	grid-row: span 2;
 }
 
@@ -341,11 +348,13 @@ padding-left: 20px;
       
 
     .image-grid-row-2:hover {
+
         opacity: 0.3;
       }
       
 
       .image-grid .image4 {
+
 
         opacity: 100%;
         transition: .5s ease;
@@ -354,6 +363,7 @@ padding-left: 20px;
       
 
     .image4:hover {
+
         opacity: 0.3;
       }
  
@@ -368,6 +378,7 @@ padding-left: 20px;
       
 
     .image5:hover {
+
         opacity: 0.3;
       }
 
@@ -380,6 +391,7 @@ padding-left: 20px;
       
 
     .image6:hover {
+
         opacity: 0.3;
       }
 
@@ -391,6 +403,7 @@ padding-left: 20px;
       }
 
     .image7:hover {
+
         opacity: 0.3;
       }
  
@@ -411,6 +424,7 @@ padding-left: 20px;
 
     @media screen and (max-width: 700px) {
       .motto {
+
         font-size: 2em; 
         font-family: "futura";
         position: absolute;
@@ -424,6 +438,7 @@ padding-left: 20px;
         
       @media screen and (max-width: 1000px) {
         .motto {
+
           font-size: 2em; 
           font-family: "futura";
           position: absolute;
@@ -436,8 +451,8 @@ padding-left: 20px;
         }
 
     
-
 .container {
+  
     position: relative;
     text-align: center;
     color: white;
@@ -445,12 +460,12 @@ padding-left: 20px;
 
 }
 .container5 {
+
   position: relative;
   text-align: center;
   color: white;
 
 }
-
 
 .parallax {
 
@@ -462,15 +477,13 @@ padding-left: 20px;
     background-image: url("https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/Canberra%20Modernist%20Dinner%202019%20WEB-0006.jpg/:/rs=w:1160,h:773");
 
   }
-
-
   
   @media screen and (max-device-width: 480px) { 
     .column { 
+
         float: none; 
     } 
 }
-
 
 .gallery {
 
@@ -491,17 +504,16 @@ padding-left: 20px;
 }
 }
 
-
 .row2 {
+
     display: flex;
     justify-content: center;
     gap: 16px;
-    padding-top: 60px;
-
-    
+    padding-top: 60px;  
 }
 
 .row2 img {
+
     width: auto;
     height: auto;
     justify-content: space-between;
@@ -513,6 +525,7 @@ padding-left: 20px;
 /* ABOUT PAGE */
 
  .hero2 {
+
     background-image: url(https://static.wixstatic.com/media/7c4bb8_69c3d5cf9a74436c8652ccb4fc3866d0~mv2.jpg/v1/fill/w_1024,h_689,al_c,q_85,enc_auto/7c4bb8_69c3d5cf9a74436c8652ccb4fc3866d0~mv2.jpg);
     height: 40em;
     width: 100%;
@@ -521,8 +534,7 @@ padding-left: 20px;
     margin-right: auto; 
     background-size: cover;
     background-position: center;
-    
-    }
+  }
 
 .title2 {
 
@@ -546,6 +558,7 @@ padding-left: 20px;
 }
 
 .container2 {
+
     display: grid;    
     justify-content: center;
     width: 70%;
@@ -558,7 +571,8 @@ padding-left: 20px;
 
   
    
-   .container3{
+   .container3 {
+
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -569,7 +583,8 @@ padding-left: 20px;
   
 }
 
-.box3{
+.box3 {
+
     display:flex;
     height: 600px;
     flex-direction: column;
@@ -583,7 +598,6 @@ padding-left: 20px;
     line-height: 1.8em;
     background-color: #FBB883;
     padding: 20px;
-
 }
 
    /* STACKING COLUMNS */
@@ -601,23 +615,23 @@ padding-left: 20px;
     margin: 10px;
     padding: 20px;
     font-size: 12px;
-
 }
 }
-
 
 .image12 {
+
   background: 50% 50% no-repeat; /* 50% 50% centers image in div */
   width: 250px;
   height: 250px;
 }
 
-
 .column3 {
+
     justify-content: center; 
     }
 
 .image8 {
+
   width: 85%;
   height: 26em;
   justify-content: right;
@@ -628,6 +642,7 @@ padding-left: 20px;
 
   @media screen and (max-width: 1000px) {
   .image8 {
+
     width: 70%;
     height: 20em;
     justify-content: center;
@@ -637,16 +652,16 @@ padding-left: 20px;
 
   @media screen and (max-width: 700px) {
     .image8 {
+
       width: 80%;
       height: 20em;
       justify-content: center;
       padding: 0%;
       }
     }
-  
-
 
 .column4 {
+
     flex: 50%;
     font-family: "Futura";
     font-size: 15px;
@@ -657,11 +672,11 @@ padding-left: 20px;
 
 }
 
-
    /* REDUCE CONTAINER SIZING */
 
 @media screen and (max-width: 1000px) {
-  .container2{
+  .container2 {
+
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -670,12 +685,12 @@ padding-left: 20px;
     min-width:18rem;
     margin: 10px;
     margin-left: 200px;
-
 }
 }
 
 @media screen and (max-width: 700px) {
   .container2 {
+
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -690,6 +705,7 @@ padding-left: 20px;
 
 @media screen and (max-width: 700px) {
   .column3 {
+
     font-size: 12px;
     font-style: normal;
     line-height: 1.8em;
@@ -699,6 +715,7 @@ padding-left: 20px;
 
 @media screen and (max-width: 1000px) {
   .column4 {
+
     font-size: 12px;
     font-style: normal;
     line-height: 1.8em;
@@ -709,7 +726,6 @@ padding-left: 20px;
 }
 }
 
-
 .text2 { 
   font-family: "Futura";
   font-style: bold;
@@ -718,7 +734,6 @@ padding-left: 20px;
   font-size: 2em;
   float: left;
 }
-
 
 @media screen and (max-width: 1000px) {
  
@@ -730,17 +745,17 @@ padding-left: 20px;
     font-size: 1.7em;
     float: left;
   }
-  
 }
 
 .text2, h1 {
+
   padding-bottom: 20px;
 }
-
 
 /* EVENTS PAGE */
 
    .hero3 {
+
     background-image: url("https://lostfourwordsdotcom.files.wordpress.com/2017/04/thumbnail_bradley_madigan_nga_1.jpg");
     background-repeat: no-repeat;
     height: 40em;
@@ -751,9 +766,7 @@ padding-left: 20px;
     width: 100%; 
     background-size: cover;
     background-position: center;
-  
   }
-
 
 .about {
 
@@ -762,7 +775,6 @@ padding-left: 20px;
   text-align: center;
   font-size: 4em;
   padding-top: 120px;
-
 }
 
    /* REDUCE TEXT SIZING */
@@ -779,6 +791,7 @@ padding-left: 20px;
   
   }
 }
+
   .row3 {
 
     display: grid;  
@@ -803,7 +816,6 @@ padding-left: 20px;
     }
   }
 
-
   @media screen and (max-width: 700px) {
  
     .row3 {
@@ -817,8 +829,6 @@ padding-left: 20px;
     }
   }
 
-
-
   .row3 div img {
     max-width: 100%;
     min-height: 300px;
@@ -826,6 +836,7 @@ padding-left: 20px;
 
 
 .image10 {
+
   width: auto;
   height: auto;
   justify-content: center;
@@ -868,24 +879,23 @@ padding-left: 20px;
   }
 }
 
+.image11 {
 
-
-.image11{
   position: absolute;
   background-size: cover;
   width: 100%; height: 500px; object-fit: cover;
   margin-top: 120px;
 }
-  
 
+.container6 {
 
-.container6{
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
 .text-block {
+
   position: relative;
   align-content: center;
   text-align: center;
@@ -904,6 +914,7 @@ padding-left: 20px;
 @media screen and (max-width: 1000px) {
  
   div.text-block {
+
     position: relative;
     align-content: center;
     text-align: center;
@@ -920,6 +931,7 @@ padding-left: 20px;
 }
 
 .text6 {
+
   font-size: 3em; 
   font-style: bold;
   text-align: center;
@@ -932,6 +944,7 @@ padding-left: 20px;
 @media screen and (max-width: 1000px) {
 
   .text6 {
+
     font-size: 2em; 
     font-style: bold;
     text-align: center;
@@ -942,6 +955,7 @@ padding-left: 20px;
 }
 
 .contact {
+
   font-size: 2em;
   font-style: bold;
   text-align: center;
@@ -955,6 +969,7 @@ padding-left: 20px;
 @media screen and (max-width: 1000px) {
 
   .contact {
+
     font-size: 1.5em;
     font-style: bold;
     text-align: center;
@@ -966,6 +981,7 @@ padding-left: 20px;
 }
 
 .sub {
+
   font-size: 1em;
   text-align: center;
   color: white;
@@ -976,6 +992,7 @@ padding-left: 20px;
 @media screen and (max-width: 1000px) {
 
   .sub {
+
     font-size: 1em;
     text-align: center;
     color: white;
@@ -983,9 +1000,10 @@ padding-left: 20px;
     margin-top: 1.5em;
 
   }
-  
 }
+
 .container3, .button {
+
   margin-top: 30px;
 }
 
@@ -993,6 +1011,7 @@ padding-left: 20px;
 /* GALLERY PAGE */
 
 .hero4 {
+
   background-image: url("https://img1.wsimg.com/isteam/ip/713b0fb1-3749-4859-97e2-b7cf5cfb344b/0912dd47-b9d2-499e-9558-1c414f9905e2.jpg/:/rs=w:1160,h:774");
   background-repeat: no-repeat;
   height: 40em;
@@ -1005,6 +1024,7 @@ padding-left: 20px;
   background-position: center;
 
 }
+
 .title4 {
 
   font-family: "Futura";
@@ -1022,6 +1042,7 @@ padding-left: 20px;
 }
 
 .row6 {
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -1030,12 +1051,14 @@ padding-left: 20px;
 }
 
 .column {
+
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
 .column img {
+
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
@@ -1045,6 +1068,7 @@ padding-left: 20px;
 
 @media screen and (max-width: 700px) {
   .column {
+
     flex: 50%;
     max-width: 50%;
     margin: 0px 60px 60px;
@@ -1054,12 +1078,14 @@ padding-left: 20px;
 
 @media screen and (max-width: 700px) {
   .column {
+
     flex: 100%;
     max-width: 100%;
   }
 }
 
 footer {
+
     width: 100%;
     background-color: #708090;
     font-family: "futura";
@@ -1076,7 +1102,9 @@ footer {
    /* REDUCE TEXT SIZING */
    
 @media screen and (max-width: 700px) {
+  
   footer {
+
     width: 100%;
     background-color: #708090;
     font-family: "futura";
